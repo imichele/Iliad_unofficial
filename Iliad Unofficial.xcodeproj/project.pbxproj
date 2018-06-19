@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CBEDAE551F4A90193226208 /* Pods_Iliad_Unofficial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93599E90CE03A4A66591B5CF /* Pods_Iliad_Unofficial.framework */; };
+		D12D03A920D2E04C00BB13B1 /* Italia.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12D03A820D2E04C00BB13B1 /* Italia.swift */; };
+		D16001F620CFE2650082984F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16001F520CFE2650082984F /* Model.swift */; };
+		D18F4BE420CE683A0026D7D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F4BE320CE683A0026D7D9 /* AppDelegate.swift */; };
+		D18F4BE620CE683A0026D7D9 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F4BE520CE683A0026D7D9 /* WelcomeScreen.swift */; };
+		D18F4BE920CE683A0026D7D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18F4BE720CE683A0026D7D9 /* Main.storyboard */; };
+		D18F4BEB20CE683D0026D7D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18F4BEA20CE683D0026D7D9 /* Assets.xcassets */; };
+		D18F4BEE20CE683D0026D7D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18F4BEC20CE683D0026D7D9 /* LaunchScreen.storyboard */; };
+		D18F4BF620CE6F3F0026D7D9 /* CoreCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F4BF520CE6F3F0026D7D9 /* CoreCode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C6A030991D0EA0337323773 /* Pods-Iliad Unofficial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Iliad Unofficial.release.xcconfig"; path = "Pods/Target Support Files/Pods-Iliad Unofficial/Pods-Iliad Unofficial.release.xcconfig"; sourceTree = "<group>"; };
+		660E637CC888C049D6C1F766 /* Pods-Iliad Unofficial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Iliad Unofficial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Iliad Unofficial/Pods-Iliad Unofficial.debug.xcconfig"; sourceTree = "<group>"; };
+		93599E90CE03A4A66591B5CF /* Pods_Iliad_Unofficial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Iliad_Unofficial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12D03A820D2E04C00BB13B1 /* Italia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Italia.swift; sourceTree = "<group>"; };
+		D16001F520CFE2650082984F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D18F4BE020CE683A0026D7D9 /* Iliad Unofficial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iliad Unofficial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18F4BE320CE683A0026D7D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D18F4BE520CE683A0026D7D9 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		D18F4BE820CE683A0026D7D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D18F4BEA20CE683D0026D7D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D18F4BED20CE683D0026D7D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D18F4BEF20CE683D0026D7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18F4BF520CE6F3F0026D7D9 /* CoreCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreCode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D18F4BDD20CE683A0026D7D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBEDAE551F4A90193226208 /* Pods_Iliad_Unofficial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		256E8C5D3175F36D9AAD057D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93599E90CE03A4A66591B5CF /* Pods_Iliad_Unofficial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		718C5E9C42A2C78183FA93F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				660E637CC888C049D6C1F766 /* Pods-Iliad Unofficial.debug.xcconfig */,
+				3C6A030991D0EA0337323773 /* Pods-Iliad Unofficial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D18F4BD720CE683A0026D7D9 = {
+			isa = PBXGroup;
+			children = (
+				D18F4BE220CE683A0026D7D9 /* Iliad Unofficial */,
+				D18F4BE120CE683A0026D7D9 /* Products */,
+				718C5E9C42A2C78183FA93F0 /* Pods */,
+				256E8C5D3175F36D9AAD057D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D18F4BE120CE683A0026D7D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D18F4BE020CE683A0026D7D9 /* Iliad Unofficial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D18F4BE220CE683A0026D7D9 /* Iliad Unofficial */ = {
+			isa = PBXGroup;
+			children = (
+				D18F4BE720CE683A0026D7D9 /* Main.storyboard */,
+				D18F4BE320CE683A0026D7D9 /* AppDelegate.swift */,
+				D18F4BE520CE683A0026D7D9 /* WelcomeScreen.swift */,
+				D12D03A820D2E04C00BB13B1 /* Italia.swift */,
+				D18F4BF520CE6F3F0026D7D9 /* CoreCode.swift */,
+				D16001F520CFE2650082984F /* Model.swift */,
+				D18F4BEA20CE683D0026D7D9 /* Assets.xcassets */,
+				D18F4BEC20CE683D0026D7D9 /* LaunchScreen.storyboard */,
+				D18F4BEF20CE683D0026D7D9 /* Info.plist */,
+			);
+			path = "Iliad Unofficial";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D18F4BDF20CE683A0026D7D9 /* Iliad Unofficial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18F4BF220CE683D0026D7D9 /* Build configuration list for PBXNativeTarget "Iliad Unofficial" */;
+			buildPhases = (
+				555458A20CE774CD9A72B4E3 /* [CP] Check Pods Manifest.lock */,
+				D18F4BDC20CE683A0026D7D9 /* Sources */,
+				D18F4BDD20CE683A0026D7D9 /* Frameworks */,
+				D18F4BDE20CE683A0026D7D9 /* Resources */,
+				70D5A8E28055D2DA5BAB3F83 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Iliad Unofficial";
+			productName = "Iliad Unofficial";
+			productReference = D18F4BE020CE683A0026D7D9 /* Iliad Unofficial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D18F4BD820CE683A0026D7D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Michele Gravina";
+				TargetAttributes = {
+					D18F4BDF20CE683A0026D7D9 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = D18F4BDB20CE683A0026D7D9 /* Build configuration list for PBXProject "Iliad Unofficial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D18F4BD720CE683A0026D7D9;
+			productRefGroup = D18F4BE120CE683A0026D7D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D18F4BDF20CE683A0026D7D9 /* Iliad Unofficial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D18F4BDE20CE683A0026D7D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18F4BEE20CE683D0026D7D9 /* LaunchScreen.storyboard in Resources */,
+				D18F4BEB20CE683D0026D7D9 /* Assets.xcassets in Resources */,
+				D18F4BE920CE683A0026D7D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		555458A20CE774CD9A72B4E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Iliad Unofficial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70D5A8E28055D2DA5BAB3F83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Iliad Unofficial/Pods-Iliad Unofficial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Iliad Unofficial/Pods-Iliad Unofficial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D18F4BDC20CE683A0026D7D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18F4BE620CE683A0026D7D9 /* WelcomeScreen.swift in Sources */,
+				D12D03A920D2E04C00BB13B1 /* Italia.swift in Sources */,
+				D18F4BF620CE6F3F0026D7D9 /* CoreCode.swift in Sources */,
+				D18F4BE420CE683A0026D7D9 /* AppDelegate.swift in Sources */,
+				D16001F620CFE2650082984F /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D18F4BE720CE683A0026D7D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18F4BE820CE683A0026D7D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D18F4BEC20CE683D0026D7D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18F4BED20CE683D0026D7D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D18F4BF020CE683D0026D7D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D18F4BF120CE683D0026D7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D18F4BF320CE683D0026D7D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 660E637CC888C049D6C1F766 /* Pods-Iliad Unofficial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6E8L8PS3X;
+				INFOPLIST_FILE = "Iliad Unofficial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "themitch.Iliad-Unofficial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D18F4BF420CE683D0026D7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6A030991D0EA0337323773 /* Pods-Iliad Unofficial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6E8L8PS3X;
+				INFOPLIST_FILE = "Iliad Unofficial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "themitch.Iliad-Unofficial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D18F4BDB20CE683A0026D7D9 /* Build configuration list for PBXProject "Iliad Unofficial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18F4BF020CE683D0026D7D9 /* Debug */,
+				D18F4BF120CE683D0026D7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D18F4BF220CE683D0026D7D9 /* Build configuration list for PBXNativeTarget "Iliad Unofficial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18F4BF320CE683D0026D7D9 /* Debug */,
+				D18F4BF420CE683D0026D7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D18F4BD820CE683A0026D7D9 /* Project object */;
+}
